@@ -2079,7 +2079,9 @@ blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre {
 }
 
 .slick-list {
+  width: 210px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .slick-list, .slick-slider {
