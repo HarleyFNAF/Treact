@@ -93,11 +93,9 @@ element.style {
 }
 
 .bpQKdm {
-    display: default;
-    flex: 1 1 0%;
-    -webkit-box-align: center;
+    display: flex;
+    flex: 1;
     align-items: center;
-    -webkit-box-pack: justify;
     justify-content: space-between;
 }
 
@@ -181,12 +179,7 @@ a {
 }
 
 .eOoWVJ {
-    display: hidden;
-    flex: 1 1 0%;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
+    display: none;
 }
 
 element.style {
@@ -204,11 +197,11 @@ element.style {
     border-radius: 0.5rem;
     border-width: 1px;
     --tw-bg-opacity: 1;
-    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+    background-color: white;
     padding: 2rem 32px;
     text-align: center;
-    --tw-text-opacity: 1;
-    color: rgb(26 32 44 / var(--tw-text-opacity));
+    transform: translateX(150%);
+    transition: transform 300ms ease;
 }
 
 .jgSSAm .light__NavLinks-sc-lj69nl-1 {
@@ -224,11 +217,26 @@ element.style {
     transition-duration: 300ms;
 }
 
+.menu--open .jgSSAm {
+    transform: translateX(0)
+}
+
 .btn__menu {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .bpQKdm {
+    display: none;
+  } 
+
+ .eOoWVJ {
+    display: flex;
+  }
+
+  .btn__menu {
     display: block;
-    background: transparent;
-    border: none;
-    transition: all 300ms ease;
+  }
 }
 
 .btn__menu--svg:hover {
@@ -454,6 +462,8 @@ img, svg, video, canvas, audio, iframe, embed, object {
     display: block;
     vertical-align: middle;
 }
+
+
 
 .bgkQVk {
     pointer-events: none;
