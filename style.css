@@ -93,7 +93,7 @@ element.style {
 }
 
 .bpQKdm {
-    display: none;
+    display: default;
     flex: 1 1 0%;
     -webkit-box-align: center;
     align-items: center;
@@ -181,7 +181,7 @@ a {
 }
 
 .eOoWVJ {
-    display: flex;
+    display: hidden;
     flex: 1 1 0%;
     -webkit-box-align: center;
     align-items: center;
