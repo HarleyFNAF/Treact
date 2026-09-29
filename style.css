@@ -224,6 +224,10 @@ element.style {
     transition-duration: 300ms;
 }
 
+.menu--open .jgSSAm {
+  transform: translateX(0) !important;
+}
+
 button, [role="button"] {
     cursor: pointer;
 }
