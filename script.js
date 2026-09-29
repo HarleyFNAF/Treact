@@ -9,10 +9,10 @@ function closeMenu() {
 }
 
 let testimonialIndex = 0
-function nextTestimoinal() {
-  testimonialIndex++;
+function nextTestimonial() {
+  testimonialIndex++
 }
 
-function previousTestimpoinal() {
+function previousTestimonial() {
   testimonialIndex--;
 }
