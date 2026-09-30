@@ -179,11 +179,9 @@ a {
 }
 
 .eOoWVJ {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
+    display: none;
 }
+
 
 element.style {
     display: block;
@@ -231,16 +229,20 @@ element.style {
 @media (max-width: 1024px) {
   .bpQKdm {
     display: none;
-  } 
+  }
 
- .eOoWVJ {
+  .eOoWVJ {
     display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .btn__menu {
     display: block;
   }
 }
+
 
 .btn__menu--close {
   position: absolute;
