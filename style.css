@@ -179,7 +179,10 @@ a {
 }
 
 .eOoWVJ {
-    display: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 element.style {
