@@ -3470,6 +3470,34 @@ MOBILE RESPONSIVENESS ↓
 */
 
 
+@media(max-width: 1280px) {
+    .bOouEi{
+        align-items: flex-end;
+    }
+}
+
+@media (max-width: 1024px) {
+  .bpQKdm {
+    display: none;
+  }
+
+  .eOoWVJ {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn__menu {
+    display: block;
+  }
+
+  .coJPtL {
+    padding: 80px 32px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .dHgWux {
     flex-direction: column;
@@ -3494,5 +3522,23 @@ MOBILE RESPONSIVENESS ↓
   .jYOvxL {
     margin-top: 400px;
   }
+
 }
+
+@media(max-width: 640px) {
+    .bUIJbq {
+        padding: 80px 0;
+    }
+    .fKiEUl {
+        margin: 8px 0;
+        padding-bottom: 4px;
+    }
+    main {
+        margin-bottom: 80px;
+    }
+}
+
+
+
+
 
